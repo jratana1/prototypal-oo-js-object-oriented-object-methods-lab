@@ -14,6 +14,4 @@ BoardMember.prototype.releasePressStatement= () => "You will see great things fr
 
 BoardMember.prototype.sayHi = function() {
     return `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
-  }
-
-// BoardMember.prototype.sayHi= () => `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
+}
